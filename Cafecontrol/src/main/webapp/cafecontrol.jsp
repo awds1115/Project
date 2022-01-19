@@ -39,11 +39,11 @@
                     </tr>
                     <tr>
                         <td>수량</td>
-                        <td><input type=number id=count min=1></td>
+                        <td><input type=number id=count min=1>개</td>
                     </tr>
                     <tr>
                         <td>금액</td>
-                        <td><input type=number id=price readonly></td>
+                        <td><input type=number id=price readonly>원</td>
                     </tr>
                     <tr>
                         <td><button id=btnReset>지우기</button></td>
@@ -62,7 +62,7 @@
                     </tr>
                     <tr>
                         <td>총액</td>
-                        <td><input type=number id=total></td>
+                        <td><input type=number id=total>원</td>
                     </tr>
                     <tr>
                         <td>모바일</td>
@@ -99,7 +99,7 @@
             </td>
         </tr>
     </table>
-    <div id=dlgMenu title=메뉴 관리 >
+    <div id=dlgMenu title=메뉴관리 >
        <table>
         <tr>
             <td>
@@ -128,7 +128,7 @@
         </table>
     
     </div>
-    <div id=dlgSales title=판매 실적 >
+    <div id=dlgSales title=판매실적 >
      <table align=center>
      	<tr>
      		<td>
