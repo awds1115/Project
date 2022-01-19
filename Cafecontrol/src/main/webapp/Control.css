@@ -1,13 +1,17 @@
 @charset "EUC-KR";
 @import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
-input, textarea, select, button, td, #selMenu1, #selSales1,#selSales2{
+input, textarea, select, button, td, #dlgMenu, #dlgSales, #selMenu1, 
+#selSales1,#selSales2, #btnGo, #reset{
     font-family:'Noto Sans Korean','Malgun Gothic','¸¼Àº°íµñ','µ¸¿ò',dotum, sans-serif;
     font-size:16px;color:black;
     line-height:2;
     letter-spacing:0;
 }
 input, textarea {
-    margin:0;padding:0;  background:none; box-sizing:border-box;
+    margin:0;
+    padding:0;  
+    background:none; 
+    box-sizing:border-box;
 }
 table.bound{
     border-collapse: collapse;
@@ -16,10 +20,6 @@ table.bound{
     width: 300px;
     background-color: silver;
 }
-#capt1 {
-	color:white;
-}
-
 #ls {
 	height:40px;
 }
@@ -27,8 +27,9 @@ table.bound{
     width: 300px;
     height:101%;
 }
+
 #btnReset, #btnAdd, #btnCancel, #btnDone, #clean,
-#clean, #btnMenu,#btnSum{
+#clean, #btnMenu,#btnSum,#btnGo,#reset{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -38,17 +39,17 @@ table.bound{
 body {
 	
      background-image:url(https://ww.namu.la/s/a03e526eddd3ee8fce326d37b906205351f42fbe80032096f6b697edbbed82307274167e92269c10ff3219c71823c9bc67ddac2d0b80476adb2d2e67c90c3c97b11305c0c39aded744e8c283c7778bd90488e2a38d20bd88e8049b768f5dd023);
-		background-repeat:no-repeat;
-      background-position:center;
-       background-size:cover;
-    
-    
+	 background-repeat:no-repeat;
+     background-position:center;
+     background-size:cover;
 }
 #capt1 {
     font-size: 20px;
     font-weight: 700;
     font-family: ¸¼Àº°íµñ;
+	color:white;
 }
+
 #dlgMenu,#dlgSales {
     display: none;
 }
